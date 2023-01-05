@@ -2,11 +2,13 @@
 
 This project arose out of frustration with Ableton Live's lack of reasonable preview/auditioning functionality for MIDI clips. If you preview a MIDI clip in the library browser it will either use a silly sine wave sound, or, if there was a device on the track the MIDI clip was created on, it will use that device to play back the notes in the MIDI clip. There is no way you could have the MIDI sent to a MIDI port, for instance to preview the clips on an external synth.
 
+Reportedly it can also be used on with the internal Midi bus on Mac by enabling the IAC driver and creating custom bus, then using that bus as the output.
+
 Be warned: it is quite a disgusting hack, to be honest, but it works for me, and I'm sharing it in case someone else might find it useful.
 
 ## Prerequisites
 
-⚠️ Only builds on Mac OS, and only tested on Catalina, Ableton Live Suite 10 and 11 (Max4Live is required)
+⚠️ Only builds on Mac OS, and only tested on Catalina (reportedly it's working on Monterey, too), Ableton Live Suite 10 and 11 (Max4Live is required)
 
 ℹ️ These instructions assume you're somewhat familiar with the Terminal.
 
